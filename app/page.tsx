@@ -97,7 +97,7 @@ export default function LoginPage() {
             <form className="space-y-[24px]">
               <div>
                 <label className="block text-[12px] font-[700] text-[#586380] mb-2">Email</label>
-                <input type="text" placeholder="Enter your email" className="w-full h-[56px] px-4 bg-[#f6f7fb] rounded-[8px] border-b-[3px] border-transparent focus:border-[#ffcd1f] outline-none font-semibold" />
+                <input type="text" placeholder="Enter your email address or username" className="w-full h-[56px] px-4 bg-[#f6f7fb] rounded-[8px] border-[1.6px] border-transparent focus:border-[#A8B1FF] outline-none font-semibold" />
               </div>
               <div>
                 <div className="flex justify-between mb-2">
@@ -105,7 +105,7 @@ export default function LoginPage() {
                   <button type="button" className="text-[12px] font-[700] text-[#4255ff]">Forgot password</button>
                 </div>
                   <div className="relative">
-                    <input type="password" placeholder="Enter your password" className="w-full h-[56px] px-4 pr-12 bg-[#f6f7fb] rounded-[8px] border-b-[3px] border-transparent focus:border-[#ffcd1f] outline-none transition-all placeholder:text-[#939bb4] text-[#2e3856] font-semibold" />
+                    <input type="password" placeholder="Enter your password" className="w-full h-[56px] px-4 pr-12 bg-[#f6f7fb] rounded-[8px] border-[1.6px] border-transparent focus:border-[#A8B1FF] outline-none transition-all placeholder:text-[#939bb4] text-[#2e3856] font-semibold" />
     
                     {/* This eye icon is built with a standard SVG so it works without any libraries */}
                     <div className="absolute right-4 top-1/2 -translate-y-1/2 flex items-center justify-center pointer-events-none">
@@ -131,7 +131,7 @@ export default function LoginPage() {
               <button className="w-full h-[64px] rounded-[200px] border-[1.6px] pt-[16px] pb-[16px] pr-[32px] pl-[32px] bg-[#4255ff] text-white rounded-[8px] font-[700] text-[18px] hover:bg-[#423ED8] transition-all shadow-sm" style={{ fontFamily: "'HurmeSans', sans-serif" }} > Log in </button>
 
               {/* Secondary Action */}
-              <button className="w-full h-[64px] rounded-[200px] border-[1.6px] pt-[16px] pb-[16px] pr-[32px] pl-[32px] border-[#F6F7FB] font-[700] text-[#2e3856] hover:bg-[#EDEBF4] transition-all" style={{ fontFamily: "'HurmeSans', sans-serif" }}>
+              <button className="w-full h-[64px] rounded-[200px] border-[1.6px] pt-[16px] pb-[16px] pr-[32px] pl-[32px] border-[#F6F7FB] font-[650] text-[#586380] hover:bg-[#EDEBF4] transition-all" style={{ fontFamily: "'HurmeSansreg', sans-serif" }}>
                 New to Quizlet? Create an account
               </button>
             </form>
@@ -191,7 +191,7 @@ export default function LoginPage() {
           <form className="space-y-6">
             <div>
               <label className="block text-[12px] font-bold text-[#586380] mb-2 ">Email</label>
-              <input type="text" placeholder="Email or username" className="w-full h-14 px-4 bg-[#f6f7fb] rounded-lg border-b-[3px] border-transparent focus:border-[#ffcd1f] outline-none font-semibold" />
+              <input type="text" placeholder="Enter your email address or username" className="w-full h-14 px-4 bg-[#f6f7fb] rounded-lg border-b-[3px] border-transparent focus:border-[#ffcd1f] outline-none font-semibold" />
             </div>
             <div>
               <div className="flex justify-between mb-2">
@@ -224,14 +224,14 @@ export default function LoginPage() {
             </div>
 
             {/* Mobile Terms: Centered, Soft Gray #616366 */}
-            <p className="text-[12px] text-[#939bb4] text-center leading-relaxed">
+            <p className="text-[12px] text-[#939bb4] text-center leading-relaxed" style={{ fontFamily: "'HurmeSans', sans-serif" }}>
               By clicking Log in, you accept Quizlet's <br />
               <span className="font-bold" style={{ color: '#586380' }}>Terms of Service</span> and <span className="font-bold" style={{ color: '#586380' }}>Privacy Policy</span>
             </p>
 
-            <button className="w-full h-[48px] bg-[#4255ff] text-white rounded-full font-bold text-[18px] mb-4">Log in</button>
-            <button className="w-full h-[48px]  bg-[#f6f7fb] text-[#2e3856] rounded-full font-bold mb-4">New to Quizlet? Create an account</button>
-            <button className="w-full text-center text-[#4255ff] font-bold pb-4 mb-10">Log in with magic link</button>
+            <button className="w-full h-[48px] bg-[#4255ff] text-white rounded-full font-bold text-[18px] mb-4" style={{ fontFamily: "'HurmeSans', sans-serif" }}>Log in</button>
+            <button className="w-full h-[48px]  bg-[#f6f7fb] text-[#586380] rounded-full font-bold mb-4 font-[650]" style={{ fontFamily: "'HurmeSansreg', sans-serif" }}>New to Quizlet? Create an account</button>
+            <button className="w-full text-center text-[#4255ff] font-bold pb-4 mb-10" style={{ fontFamily: "'HurmeSansreg', sans-serif" }}>Log in with magic link</button>
           </form>
                   
         </div>
