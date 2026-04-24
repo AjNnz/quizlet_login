@@ -155,7 +155,7 @@ export default function LoginPage() {
               <img src="/accents.svg" alt="" className="absolute left-1/2 -translate-x-1/2 w-[110%]" style={{ bottom: '-10px', height: 'auto' }} />
             </div>
           </div>
-          <button className="text-[#939bb4] p-2">
+          <button className="text-[#939bb4] p-2 leading-[0.8]">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
               <line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line>
             </svg>
@@ -230,7 +230,7 @@ export default function LoginPage() {
             </p>
 
             <button className="w-full h-[48px] bg-[#4255ff] text-white rounded-full font-bold text-[18px] mb-4">Log in</button>
-            <button className="w-full h-[48px] border-[1.6px] border-[#F6F7FB] text-[#2e3856] rounded-full font-bold mb-4">New to Quizlet? Create an account</button>
+            <button className="w-full h-[48px]  bg-[#f6f7fb] text-[#2e3856] rounded-full font-bold mb-4">New to Quizlet? Create an account</button>
             <button className="w-full text-center text-[#4255ff] font-bold pb-4 mb-10">Log in with magic link</button>
           </form>
                   
