@@ -230,7 +230,7 @@ export default function LoginPage() {
             </p>
 
             <button className="w-full h-[48px] bg-[#4255ff] text-white rounded-full font-bold text-[18px] mb-4">Log in</button>
-            <button className="w-full h-[64px] border-[1.6px] border-[#F6F7FB] text-[#2e3856] rounded-full font-bold mb-4">Create account</button>
+            <button className="w-full h-[48px] border-[1.6px] border-[#F6F7FB] text-[#2e3856] rounded-full font-bold mb-4">New to Quizlet? Create an account</button>
             <button className="w-full text-center text-[#4255ff] font-bold pb-4 mb-10">Log in with magic link</button>
           </form>
                   
