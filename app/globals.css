@@ -19,8 +19,30 @@
   }
 }
 
+@font-face {
+  font-family: 'HurmeSans';
+  src: url('/font/HurmeGeometricSans2-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HurmeSansreg';
+  src: url('/font/HurmeGeometricSans2-Regular.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HurmeSanslight';
+  src: url('/font/HurmeGeometricSans2-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'HurmeSans', 'HurmeSanslight', 'HurmeSansreg', Arial, Helvetica, sans-serif;
 }
